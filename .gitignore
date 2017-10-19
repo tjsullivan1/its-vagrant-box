@@ -5,3 +5,9 @@
 # Module directory
 .terraform/
 .vagrant/
+
+# Exclude Code Directory from the repo
+Code/
+
+# Other files to exclude
+*.log
