@@ -29,8 +29,3 @@ sudo pip3 install boto3 bs4 awscli requests configparser lxml plac
 
 # Make sure that we can run our initialization script.
 dos2unix /vagrant/init_git_config.sh
-
-### TODO ###
-# Copy init_git_config.sh
-# Add clones of ust-tf repos script
-# Copy that script
