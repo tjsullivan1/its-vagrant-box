@@ -19,4 +19,4 @@ cd Code/
 git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/ITS-Tooling
 
 # Copy the account_ids file
-cp ITS-Tooling/account_ids.txt /opt/tools/aws_saml_auth/account_ids.txt
+sudo cp ITS-Tooling/account_ids.txt /opt/tools/aws_saml_auth/account_ids.txt
