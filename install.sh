@@ -27,5 +27,8 @@ cd /opt/tools
 sudo git clone https://github.com/tjsullivan1/aws_saml_auth.git
 sudo pip3 install boto3 bs4 awscli requests configparser lxml plac
 
+# Install pre-commit package manager
+sudo pip install pre-commit
+
 # Make sure that we can run our initialization script.
 dos2unix /vagrant/init_git_config.sh
