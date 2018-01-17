@@ -32,3 +32,6 @@ sudo pip3 install pre-commit
 
 # Make sure that we can run our initialization script.
 dos2unix /vagrant/init_git_config.sh
+
+# Change our timezone to central US
+sudo timedatectl set-timezone America/Chicago
