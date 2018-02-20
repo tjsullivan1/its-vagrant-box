@@ -2,11 +2,13 @@
 
 # Update box
 sudo apt-get update -y
-# Do not upgrade box -- this includes a GRUB update that I haven't worked through sudo apt-get upgrade -y
+# Do not upgrade box -- this includes a GRUB update that I haven't worked through
+# sudo apt-get upgrade -y
 
 # Install packages
 sudo apt-get install python3-pip -y
 sudo apt-get install dos2unix -y
+sudo apt-get install jq -y
 
 sudo pip3 install --upgrade pip
 
