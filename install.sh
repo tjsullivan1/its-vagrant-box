@@ -37,3 +37,6 @@ dos2unix /vagrant/init_git_config.sh
 
 # Change our timezone to central US
 sudo timedatectl set-timezone America/Chicago
+
+# Set AWS CLI to tab complete
+sudo complete -C aws_completer aws
