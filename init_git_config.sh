@@ -10,6 +10,9 @@ git config --global credential.https://git-codecommit.us-east-1.amazonaws.com.Us
 git config --global credential.https://git-codecommit.us-east-2.amazonaws.com.helper '!aws codecommit credential-helper $@'
 git config --global credential.https://git-codecommit.us-east-2.amazonaws.com.UseHttpPath true
 
+git config --global credential.https://git-codecommit.us-west-2.amazonaws.com.helper '!aws codecommit credential-helper $@'
+git config --global credential.https://git-codecommit.us-west-2.amazonaws.com.UseHttpPath true
+
 # Perform some basic git configurations
 git config --global push.default simple
 
