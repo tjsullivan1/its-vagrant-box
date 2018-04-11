@@ -7,9 +7,9 @@ sudo apt-get update -y
 
 # Install packages
 sudo apt-get install python3-pip -y
-sudo apt-get install dos2unix -y
+sudo apt-get install dos2unix zip unzip -y
 sudo apt-get install jq -y
-sudo apt-get install autoconf automake build-essential libtool python-dev -y
+sudo apt-get install autoconf automake build-essential libtool python-dev ipython3 -y
 sudo apt-get install ec2-api-tools -y
 
 sudo pip3 install --upgrade pip
