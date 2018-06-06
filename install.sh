@@ -6,7 +6,7 @@ sudo apt-get update -y
 # sudo apt-get upgrade -y
 
 # Install packages
-sudo apt-get install python3-pip -y
+sudo apt-get install python3-pip golang-go -y
 sudo apt-get install dos2unix zip unzip -y
 sudo apt-get install jq nmap whois -y
 sudo apt-get install autoconf automake build-essential libtool python-dev ipython3 -y
