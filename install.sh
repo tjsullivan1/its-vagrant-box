@@ -31,6 +31,7 @@ sudo python3 install_hashi_tools.py
 cd /opt/tools
 sudo git clone https://github.com/tjsullivan1/aws_saml_auth.git
 sudo pip3 install boto3 bs4 awscli requests configparser lxml plac
+sudo pip3 install awsebcli --upgrade
 
 # Install pre-commit package manager
 sudo pip3 install pre-commit
